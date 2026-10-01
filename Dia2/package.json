@@ -1,0 +1,14 @@
+{
+  "name": "aula6-tdd-desconto",
+  "version": "1.0.0",
+  "description": "Exemplo da Aula 6 (Teste de Software) — TDD com Jest: teste primeiro, código depois (função desconto)",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:verbose": "jest --verbose"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
