@@ -1,0 +1,14 @@
+{
+  "name": "projeto-playwright-aula7",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "setup": "cross-env PLAYWRIGHT_BROWSERS_PATH=0 playwright install chromium",
+    "test": "cross-env PLAYWRIGHT_BROWSERS_PATH=0 playwright test",
+    "test:headed": "cross-env PLAYWRIGHT_BROWSERS_PATH=0 playwright test --headed"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "cross-env": "^7.0.3"
+  }
+}

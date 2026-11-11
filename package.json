@@ -19,5 +19,8 @@
   "homepage": "https://github.com/jonhsousadev/lab-teste-de-software#readme",
   "dependencies": {
     "jest": "^30.5.2"
+  },
+  "jest": {
+    "testPathIgnorePatterns": ["/node_modules/", "/Dia3/"]
   }
 }
